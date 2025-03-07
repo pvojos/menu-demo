@@ -61,7 +61,7 @@ main .desktop-view .desktop-view_movil-instruction {
   font-weight: 700;
   font-size: clamp(1rem, 1.2vw, 1.3rem);
 }
-main .desktop-view .desktop-view_qr-movil-link div {
+main .desktop-view .desktop-view_qr-movil-link img {
   width: clamp(6rem, 10vw, 12rem);
   height: clamp(6rem, 10vw, 12rem);
 }
