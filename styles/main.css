@@ -1,0 +1,273 @@
+body {
+  box-sizing: border-box;
+  width: 100%;
+  background: #EDEDED;
+}
+
+header {
+  width: 100%;
+  box-sizing: border-box;
+}
+@media screen and (min-width: 701px) {
+  header {
+    display: none;
+  }
+}
+header .header-box {
+  width: 100%;
+  position: relative;
+  background: #3C0000;
+  box-shadow: 0.485vw 0.728vw 2.427vw 0.485vw rgba(119, 119, 119, 0.93);
+  box-sizing: border-box;
+}
+header .header-box .header-box_texture {
+  box-sizing: border-box;
+  width: 100%;
+  opacity: 10%;
+}
+header .header-box .header-box_logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 51.075vw;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .desktop-view {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3vw;
+}
+@media screen and (max-width: 700px) {
+  main .desktop-view {
+    display: none;
+  }
+}
+main .desktop-view .desktop-view_logo {
+  width: clamp(6rem, 50vh, 60rem);
+}
+main .desktop-view .desktop-view_movil-instruction {
+  font-family: "Archivo", sans-serif;
+  color: #36312E;
+  font-weight: 700;
+  font-size: clamp(1rem, 1.2vw, 1.3rem);
+}
+main .desktop-view .desktop-view_qr-movil-link div {
+  width: clamp(6rem, 10vw, 12rem);
+  height: clamp(6rem, 10vw, 12rem);
+  background-color: #36312E;
+}
+main .main_categories-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 701px) {
+  main .main_categories-menu {
+    display: none;
+  }
+}
+main .main_categories-menu .main_categories-menu_title {
+  font-family: "BioRhyme", serif;
+  color: #3C0000;
+  font-size: 5.34vw;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 9.709vw;
+  margin-bottom: 6.068vw;
+}
+main .main_categories-menu .main_categories-menu-content {
+  width: 87.621vw;
+}
+main .main_categories-menu .main_categories-menu-content .main_categories-menu-content_instruction {
+  font-family: "Archivo", sans-serif;
+  color: #36312E;
+  font-weight: 700;
+  font-size: 2.913vw;
+  text-align: center;
+  margin-bottom: 3.641vw;
+}
+main .main_categories-menu .main_categories-menu-content .main_categories-menu-content_buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.942vw;
+  padding-bottom: 6.068vw;
+  border-bottom: 0.243vw solid #C6C6C6;
+}
+main .main_categories-menu .main_categories-menu-content .main_categories-menu-content_buttons .categories-menu-button {
+  font-family: "Archivo", sans-serif;
+  color: #36312E;
+  font-weight: 700;
+  font-size: 2.791vw;
+  background-color: #C6C6C6;
+  text-align: center;
+  padding: 1.942vw 2.427vw;
+  border-radius: 3.883vw;
+  text-decoration: none;
+}
+main .main_categories-menu .main_categories-menu-content .main_categories-menu-content_buttons .categories-menu-button.hover {
+  box-shadow: inset -3vw 3vw 3vw -3vw rgba(32, 21, 21, 0.55);
+}
+main .main_categories-menu .main_categories-menu-content .main_categories-menu-content_buttons .menu-button__selected {
+  font-family: "Archivo", sans-serif;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 2.791vw;
+  background-color: #3C0000;
+  text-align: center;
+  padding: 1.942vw 2.427vw;
+  border-radius: 3.883vw;
+  text-decoration: none;
+}
+main .main_categories-menu .main_categories-menu-content .main_categories-menu-content_buttons .menu-button__selected.hover {
+  box-shadow: inset -3vw 3vw 3vw -3vw rgba(32, 21, 21, 0.55);
+}
+main .main_dishes {
+  width: 87.621vw;
+  margin-bottom: 9.709vw;
+}
+@media screen and (min-width: 701px) {
+  main .main_dishes {
+    display: none;
+  }
+}
+main .main_dishes .main_dishes_title {
+  font-family: "Archivo", sans-serif;
+  color: #3C0000;
+  font-weight: 700;
+  font-size: 4.369vw;
+  margin-top: 8.495vw;
+  margin-bottom: 4.854vw;
+}
+main .main_dishes .main_dishes_content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 6.068vw;
+}
+main .main_dishes .main_dishes_content .dish-card {
+  padding: 3.155vw;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.942vw;
+  border-radius: 4.369vw;
+  box-shadow: 0.485vw 0.728vw 1.723vw 0 rgba(112, 112, 112, 0.3);
+}
+main .main_dishes .main_dishes_content .dish-card .dish-card_photo {
+  width: 34vw;
+  border-radius: 2.427vw;
+}
+main .main_dishes .main_dishes_content .dish-card .dish-card_name {
+  width: 34vw;
+  font-family: "Archivo", sans-serif;
+  color: #36312E;
+  font-weight: 700;
+  font-size: 2.913vw;
+  text-align: center;
+}
+main .main_dishes .main_dishes_content .dish-card .dish-card_price {
+  width: 34vw;
+  font-family: "Archivo", sans-serif;
+  color: #89450E;
+  font-weight: 800;
+  font-size: 3.641vw;
+  text-align: center;
+}
+main .main_dishes .main_dishes_content .dish-card .dish-card_description {
+  width: 34vw;
+  font-family: "Archivo", sans-serif;
+  color: #36312E;
+  font-weight: 500;
+  font-size: 2.549vw;
+  text-align: center;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.4s ease-in-out;
+}
+main .main_dishes .main_dishes_content .dish-card .dish-card_description.view-description {
+  height: auto;
+}
+main .main_dishes .main_dishes_content .dish-card .dish-card_description-button {
+  font-family: "Archivo", sans-serif;
+  color: #36312E;
+  font-weight: 700;
+  font-size: 2.427vw;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 1vw 2.5vw;
+  border: 0.243vw solid #36312E;
+  border-radius: 3.641vw;
+  display: flex;
+  flex-direction: row;
+  gap: 1.214vw;
+}
+main .main_dishes .main_dishes_content .dish-card .to-open {
+  display: block;
+}
+main .main_dishes .main_dishes_content .dish-card .to-open.view-description {
+  display: none;
+}
+main .main_dishes .main_dishes_content .dish-card .to-open.hover {
+  box-shadow: inset -3vw 3vw 3vw -3vw rgba(32, 21, 21, 0.55);
+}
+main .main_dishes .main_dishes_content .dish-card .to-close {
+  display: none;
+}
+main .main_dishes .main_dishes_content .dish-card .to-close.view-description {
+  display: flex;
+}
+main .main_dishes .main_dishes_content .dish-card .to-close.hover {
+  box-shadow: inset -3vw 3vw 3vw -3vw rgba(32, 21, 21, 0.55);
+}
+
+@media screen and (min-width: 701px) {
+  footer {
+    display: none;
+  }
+}
+footer .footer-box {
+  background: #C6C6C6;
+  padding: 9.709vw 24.272vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .footer-box .footer-box_logo {
+  margin-bottom: 8.495vw;
+}
+footer .footer-box .footer-box_social-media {
+  display: flex;
+  flex-direction: row;
+  gap: 2.427vw;
+  margin-bottom: 2.913vw;
+}
+footer .footer-box .footer-box_contact-info .contact-info_title {
+  font-family: "Archivo", sans-serif;
+  color: #36312E;
+  font-weight: 700;
+  font-size: 2.913vw;
+  text-align: center;
+  margin-bottom: 1.214vw;
+}
+footer .footer-box .footer-box_contact-info .contact-info_phone-number {
+  font-family: "Archivo", sans-serif;
+  color: #36312E;
+  font-weight: 700;
+  font-size: 4.369vw;
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */

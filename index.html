@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=BioRhyme:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css" integrity="sha512-IJEbgDEF7OeKJRa0MY2PApnyJHRIsgzCveek4ec8VWQ+7KG3ZSKVNYa5xP/Gh0hVP0Mwb+gBsk+GwR3JQGhQNg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="js/functions.js" defer></script>
+    <title>Demo Menu | Desayunos</title>
+</head>
+<body>
+    <header>
+        <article class="header">
+            <section class="header-box">
+                <img class="header-box_texture" src="assets/img/textura.jpg" alt="Textura de madera">
+                <img class="header-box_logo" src="assets/svg/white-logo.svg" alt="Logo El Rancho del Sabor variante en blanco">
+            </section>
+        </article>
+    </header>
+
+    <main>
+        <article class="desktop-view">
+            <img class="desktop-view_logo" src="assets/svg/original-logo.svg" alt="Logo El Rancho del Sabor">
+
+            <section class="desktop-view_movil-instruction">
+                <p>Escanea este QR para ver el menú en tu celular.</p>
+            </section>
+
+            <section class="desktop-view_qr-movil-link">
+                <div></div>
+            </section>
+        </article>
+
+        <article class="main_categories-menu">
+            <h1 class="main_categories-menu_title">Nuestro Menú</h1>
+            <section class="main_categories-menu-content">
+                <p class="main_categories-menu-content_instruction">Elige alguna de nuestras categorías:</p>
+                <div class="main_categories-menu-content_buttons">
+                    <a href="#" class="categories-menu-button menu-button__selected">Desayunos</a>
+                    <a href="entradas.html" class="categories-menu-button">Entradas</a>
+                    <a href="ensaladas.html" class="categories-menu-button">Ensaladas</a>
+                    <a href="hamburguesas.html" class="categories-menu-button">Hamburguesas</a>
+                    <a href="tradicionales.html" class="categories-menu-button">Tradicionales</a>
+                    <a href="cortes.html" class="categories-menu-button">Cortes</a>
+                    <a href="bebidas.html" class="categories-menu-button">Bebidas</a>
+                    <a href="postres.html" class="categories-menu-button">Postres</a>
+                </div>
+            </section>
+        </article>
+
+        <article class="main_dishes">
+            <h2 class="main_dishes_title">Desayunos</h2>
+            <section class="main_dishes_content">
+                <div class="dish-card">
+                    <img class="dish-card_photo" src="assets/img/desayunos/chilaquiles-tradicionales.jpg" alt="Chilaquiles tradicionales de El Rancho del Sabor">
+                    <p class="dish-card_name">Chilaquiles tradicionales</p>
+                    <p class="dish-card_price">$135.00</p>
+                    <p class="dish-card_description">Crujientes totopos bañados en salsa roja o verde, acompañados de pollo desmenuzado, crema, queso fresco y un toque de cebolla morada.</p>
+                    <button class="dish-card_description-button to-open">Ver descripción</button>
+                    <button class="dish-card_description-button to-close">
+                        <img class="close-arrow-icon" src="assets/svg/close-arrow.svg" alt="icono de flecha apuntando arriba">
+                        <p class="close-text">Ocultar descripción</p>
+                    </button>
+                </div>
+
+                <div class="dish-card">
+                    <img class="dish-card_photo" src="assets/img/desayunos/omelette.jpg" alt="Omelette de El Rancho del Sabor">
+                    <p class="dish-card_name">Omelette</p>
+                    <p class="dish-card_price">$105.00</p>
+                    <p class="dish-card_description">Esponjosa tortilla de huevo rellena con ingredientes a elección, como jamón, queso, champiñones o espinacas.</p>
+                    <button class="dish-card_description-button to-open">Ver descripción</button>
+                    <button class="dish-card_description-button to-close">
+                        <img class="close-arrow-icon" src="assets/svg/close-arrow.svg" alt="icono de flecha apuntando arriba">
+                        <p class="close-text">Ocultar descripción</p>
+                    </button>
+                </div>
+
+                <div class="dish-card">
+                    <img class="dish-card_photo" src="assets/img/desayunos/huevos-a-la-mexicana.jpg" alt="Huevos a la mexicana de El Rancho del Sabor">
+                    <p class="dish-card_name">Huevos a la mexicana</p>
+                    <p class="dish-card_price">$102.00</p>
+                    <p class="dish-card_description">Huevos frescos revueltos con tomate, cebolla y chile.</p>
+                    <button class="dish-card_description-button to-open">Ver descripción</button>
+                    <button class="dish-card_description-button to-close">
+                        <img class="close-arrow-icon" src="assets/svg/close-arrow.svg" alt="icono de flecha apuntando arriba">
+                        <p class="close-text">Ocultar descripción</p>
+                    </button>
+                </div>
+
+                <div class="dish-card">
+                    <img class="dish-card_photo" src="assets/img/desayunos/huevos-revueltos.jpg" alt="Huevos revueltos de El Rancho del Sabor">
+                    <p class="dish-card_name">Huevos revueltos</p>
+                    <p class="dish-card_price">$112.00</p>
+                    <p class="dish-card_description">Huevos frescos revueltos con jamón, cebolla, tomate y chile, servidos con tortillas o pan.</p>
+                    <button class="dish-card_description-button to-open">Ver descripción</button>
+                    <button class="dish-card_description-button to-close">
+                        <img class="close-arrow-icon" src="assets/svg/close-arrow.svg" alt="icono de flecha apuntando arriba">
+                        <p class="close-text">Ocultar descripción</p>
+                    </button>
+                </div>
+
+                <div class="dish-card">
+                    <img class="dish-card_photo" src="assets/img/desayunos/enfrijoladas.jpg" alt="Enfrijoladas de El Rancho del Sabor">
+                    <p class="dish-card_name">Enfrijoladas</p>
+                    <p class="dish-card_price">$105.00</p>
+                    <p class="dish-card_description">Tortillas fritas bañadas con una suave salsa de frijol, acompañadas de crema y queso fresco.</p>
+                    <button class="dish-card_description-button to-open">Ver descripción</button>
+                    <button class="dish-card_description-button to-close">
+                        <img class="close-arrow-icon" src="assets/svg/close-arrow.svg" alt="icono de flecha apuntando arriba">
+                        <p class="close-text">Ocultar descripción</p>
+                    </button>
+                </div>
+
+                <div class="dish-card">
+                    <img class="dish-card_photo" src="assets/img/desayunos/molletes.jpg" alt="Molletes de El Rancho del Sabor">
+                    <p class="dish-card_name">Molletes</p>
+                    <p class="dish-card_price">$95.00</p>
+                    <p class="dish-card_description">Pan bolillo partido por la mitad, cubierto con frijoles y queso, gratinado al horno.</p>
+                    <button class="dish-card_description-button to-open">Ver descripción</button>
+                    <button class="dish-card_description-button to-close">
+                        <img class="close-arrow-icon" src="assets/svg/close-arrow.svg" alt="icono de flecha apuntando arriba">
+                        <p class="close-text">Ocultar descripción</p>
+                    </button>
+                </div>
+
+                <div class="dish-card">
+                    <img class="dish-card_photo" src="assets/img/desayunos/hot-cakes.jpg" alt="Hot cakes de El Rancho del Sabor">
+                    <p class="dish-card_name">Hot cakes</p>
+                    <p class="dish-card_price">$115.00</p>
+                    <p class="dish-card_description">Esponjosos pancakes servidos con miel, fruta o el sirope de tu elección.</p>
+                    <button class="dish-card_description-button to-open">Ver descripción</button>
+                    <button class="dish-card_description-button to-close">
+                        <img class="close-arrow-icon" src="assets/svg/close-arrow.svg" alt="icono de flecha apuntando arriba">
+                        <p class="close-text">Ocultar descripción</p>
+                    </button>
+                </div>
+
+                <div class="dish-card">
+                    <img class="dish-card_photo" src="assets/img/desayunos/avena.jpg" alt="Avena de El Rancho del Sabor">
+                    <p class="dish-card_name">Avena</p>
+                    <p class="dish-card_price">$85.00</p>
+                    <p class="dish-card_description">Tazón de avena caliente, acompañado de pan tostado y plátano rebanado.</p>
+                    <button class="dish-card_description-button to-open">Ver descripción</button>
+                    <button class="dish-card_description-button to-close">
+                        <img class="close-arrow-icon" src="assets/svg/close-arrow.svg" alt="icono de flecha apuntando arriba">
+                        <p class="close-text">Ocultar descripción</p>
+                    </button>
+                </div>
+
+                <div class="dish-card">
+                    <img class="dish-card_photo" src="assets/img/desayunos/fruta-con-yogurt.jpg" alt="Fruta con yogurt de El Rancho del Sabor">
+                    <p class="dish-card_name">Fruta con yogurt</p>
+                    <p class="dish-card_price">$92.00</p>
+                    <p class="dish-card_description">Frescas frutas de temporada acompañadas de yogurt natural.</p>
+                    <button class="dish-card_description-button to-open">Ver descripción</button>
+                    <button class="dish-card_description-button to-close">
+                        <img class="close-arrow-icon" src="assets/svg/close-arrow.svg" alt="icono de flecha apuntando arriba">
+                        <p class="close-text">Ocultar descripción</p>
+                    </button>
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <article class="footer">
+            <section class="footer-box">
+                <img class="footer-box_logo" src="assets/svg/original-logo.svg" alt="Logo El Rancho del Sabor">
+                <div class="footer-box_social-media">
+                    <a href="https://www.facebook.com/" target="_blank"><img class="fb-icon" src="assets/svg/fb-icon.svg" alt="icono de Facebook"></a>
+                    <a href="https://www.instagram.com/" target="blank"><img class="ig-icon" src="assets/svg/ig-icon.svg" alt="icono de Instagram"></a>
+                </div>
+                <div class="footer-box_contact-info">
+                    <p class="contact-info_title">Llámanos para realizar tus pedidos:</p>
+                    <p class="contact-info_phone-number">(625) 123 4567</p>
+                </div>
+            </section>
+        </article>
+    </footer>
+</body>
+</html>
