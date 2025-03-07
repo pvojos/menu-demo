@@ -64,7 +64,6 @@ main .desktop-view .desktop-view_movil-instruction {
 main .desktop-view .desktop-view_qr-movil-link div {
   width: clamp(6rem, 10vw, 12rem);
   height: clamp(6rem, 10vw, 12rem);
-  background-color: #36312E;
 }
 main .main_categories-menu {
   display: flex;
